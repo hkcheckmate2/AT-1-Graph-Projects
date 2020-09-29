@@ -85,9 +85,9 @@ def out_degree(digraph):
         out_degree += len(digraph[each])
 
     #out_degree = out_degree*1.0
-    print("Total number of nodes is "+str(node))
-    print("Average number of neighbors per node "+str((out_degree*1.0)/node))
-    print("Average number of undirected edges is "+str((out_degree*0.5)/node))
+    print "Total number of nodes is "+str(node)
+    print "Average number of neighbors per node "+str((out_degree*1.0)/node)
+    print "Average number of undirected edges is "+str((out_degree*0.5)/node)
 
 def upa_graph(n,m):
 
